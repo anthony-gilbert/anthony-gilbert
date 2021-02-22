@@ -1,16 +1,28 @@
 <template>
-<header class="blog-header py-3">
-        <div class="row flex-nowrap justify-content-between align-items-center">
-            <div class="col-4 pt-1">
-                <!-- <a class="text-muted" href="#">LOGO</a> -->
-            </div>
-            <div class="col-4 text-center">
-                <a class="blog-header-logo text-light" href="home.html">ANTHONY GILBERT</a>
-            </div>
-            <div class="col-4 d-flex justify-content-end align-items-center">
-            </div>
-        </div>
-    </header>
+  <div class="container">
+    <div>
+      <h1 class="title">
+        Anthony Gilbert
+      </h1>
+      <hr>
+      <div class="links">
+        <a
+          href="/projects"
+          rel="noopener noreferrer"
+          class="button--green"
+        >
+          Projects
+        </a>
+        <a
+          href="/blog"
+          rel="noopener noreferrer"
+          class="button--green"
+        >
+          Blog
+        </a>
+      </div>
+    </div>
+  </div>
 </template>
 
 <style>

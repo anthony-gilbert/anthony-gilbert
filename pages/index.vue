@@ -1,34 +1,21 @@
 <template>
-  <div class="container">
-    <div>
-      <h1 class="title">
-        Anthony Gilbert
-      </h1>
-      <hr>
-      <div class="links">
-        <a
-          href="/projects"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Projects
-        </a>
-        <a
-          href="/blog"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Blog
-        </a>
-      </div>
-    </div>
-  </div>
+<Header />
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
+import Header from '../components/Header.vue'
 
-export default Vue.extend({})
+export default Vue.extend({
+  components: {
+    Header,
+  },
+  
+})
+
+
+
+
 </script>
 
 <style>
