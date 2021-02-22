@@ -4,6 +4,7 @@
       <h1 class="title">
         Anthony Gilbert
       </h1>
+      <hr>
       <div class="links">
         <a
           href="/projects"
@@ -15,7 +16,7 @@
         <a
           href="/blog"
           rel="noopener noreferrer"
-          class="button--grey"
+          class="button--green"
         >
           Blog
         </a>
@@ -31,6 +32,15 @@ export default Vue.extend({})
 </script>
 
 <style>
+body {
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    background-color: #551c1c;
+    background-image: url("https://cdn.pixabay.com/photo/2019/11/14/13/01/abstract-4626113_960_720.jpg");
+    background-size: cover;
+    background-position: center;
+}
 /* Sample `apply` at-rules with Tailwind CSS
 .container {
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
@@ -38,7 +48,7 @@ export default Vue.extend({})
 */
 .container {
   margin: 0 auto;
-  min-height: 50vh;
+  min-height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,15 +68,15 @@ export default Vue.extend({})
     sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
+  font-size: 2.25rem;
+  color: #3b8070;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 42px;
-  color: #526488;
+  color: #3b8070;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
@@ -74,4 +84,5 @@ export default Vue.extend({})
 .links {
   padding-top: 15px;
 }
+
 </style>
