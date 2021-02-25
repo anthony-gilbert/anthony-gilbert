@@ -1,6 +1,6 @@
 <template>
-<header class="blog-header py-3">
-        <div class="row flex-nowrap justify-content-between align-items-center">
+<header class="blog-header py-3 container bg-gray-500">
+        <div class="row flex-nowrap justify-content-between align-items-center mx-auto bg-gray-900">
             <div class="col-4 pt-1">
 
             </div>

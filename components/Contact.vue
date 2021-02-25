@@ -2,7 +2,7 @@
   
 
   <div id="contact-form" class="w-full max-w-xs md:items-center justify-center">
-    <form class="w-full max-w-xs md:items-center bg-white shadow-md rounded px-8 pt-6 pb-8 justify-center">
+    <form class="w-full max-w-xs md:items-center bg-white shadow-md rounded px-8 pt-6 pb-8 justify-center min-w-full">
       <div class="mb-4">
         <label
           class="block text-gray-700 text-sm font-bold mb-2"
@@ -59,5 +59,7 @@ export default {}
 <style scoped>
 #contact-form {
   margin: 0 auto;
+  /* min-width: 100%; */
+  background-image: url("https://avatars.githubusercontent.com/u/26334011?s=460&u=d0f1131adaad73cf363faf885c0bb6eaacdb1c94&v=4");
 }
 </style>
