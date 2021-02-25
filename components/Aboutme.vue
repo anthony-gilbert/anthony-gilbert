@@ -11,7 +11,7 @@ export default {
 
 <style scoped>
     #aboutme{
-        background-color: rgb(42, 150, 69);
-        color: rgb(73, 49, 67);
+        background-color: rgb(162, 160, 160);
+        color: rgb(0, 0, 0);
     }
 </style>
