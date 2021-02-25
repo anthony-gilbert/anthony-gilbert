@@ -11,7 +11,7 @@ export default {
 
 <style scoped>
     #footer{
-        background-color: rgb(150, 42, 42);
-        color: rgb(64, 73, 49);
+        background-color: rgb(162, 160, 160);
+        color: rgb(0, 0, 0);
     }
 </style>
