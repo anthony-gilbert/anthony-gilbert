@@ -1,5 +1,7 @@
 <template>
   <div class="container">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <div>
       <h1 class="title">
         Anthony Gilbert
@@ -27,11 +29,22 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import Canvas from '../components/Canvas.vue'
 
-export default Vue.extend({})
+export default {
+  name: "App",
+  components: {
+    Vue,
+    Canvas
+  }
+};
 </script>
 
 <style>
+h1 {
+  color: azure;
+  text-align: center;
+}
 body {
     position: absolute;
     width: 100%;
