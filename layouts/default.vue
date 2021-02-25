@@ -1,11 +1,31 @@
 <template>
   <div>
     <Nuxt />
-
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <Canvas />
+    <Aboutme />
+    <Contact />
+    <Footer />
   </div>
 </template>
+
+<script lang="ts">
+import Canvas from '../components/Canvas.vue'
+import Contact from '../components/Contact.vue'
+import Footer from '../components/Footer.vue'
+import Aboutme from '../components/Aboutme.vue'
+
+export default {
+  name: "App",
+  components: {
+    Canvas,
+    Aboutme,
+    Contact,
+    Footer
+  }
+};
+</script>
 
 <style>
 html {
