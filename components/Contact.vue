@@ -25,16 +25,17 @@
           E-mail
         </label>
         <input
-          class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
           id="email"
           type="text"
           placeholder="name@email.com"
         />
-        <p class="text-red-500 text-xs italic">Please enter your email address</p>
+
       </div>
 
       <!-- Adding Text box -->
-      <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="message" name="message" rows="3" required=""></textarea>
+      <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="message" name="message" rows="3" required=""
+      placeholder="message"></textarea>
 
       <!-- Ending added Text box -->
 
