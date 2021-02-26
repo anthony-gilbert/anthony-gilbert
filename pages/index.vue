@@ -1,4 +1,7 @@
 <template>
+
+<Header />
+
   <div class="container">
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
@@ -25,10 +28,25 @@
       </div>
     </div>
   </div>
+
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
+
+import Header from '../components/Header.vue'
+
+export default Vue.extend({
+  components: {
+    Header,
+  },
+  
+})
+
+
+
+
+
 import Canvas from '../components/Canvas.vue'
 
 export default {
@@ -38,6 +56,7 @@ export default {
     Canvas
   }
 };
+
 </script>
 
 <style>
