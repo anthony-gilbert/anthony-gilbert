@@ -5,7 +5,9 @@
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <Canvas />
     <Aboutme />
+    <Spacer />
     <Contact />
+    <Spacer />
     <Footer />
   </div>
 </template>
@@ -15,6 +17,7 @@ import Canvas from '../components/Canvas.vue'
 import Contact from '../components/Contact.vue'
 import Footer from '../components/Footer.vue'
 import Aboutme from '../components/Aboutme.vue'
+import Spacer from '../components/Spacer.vue'
 
 export default {
   name: "App",
@@ -22,7 +25,8 @@ export default {
     Canvas,
     Aboutme,
     Contact,
-    Footer
+    Footer,
+    Spacer
   }
 };
 </script>
@@ -46,6 +50,7 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 
+  height: 100%;
   
 }
 
@@ -83,5 +88,21 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+html, body {
+  margin: 0;
+}
+
+
+
+html, body {
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 </style>
