@@ -1,17 +1,20 @@
 <template>
-<div class="container">
+<div class="container grid">
 
-        <div class="media jumbotron p-4 p-md-5 text-white rounded bg-dark" style="  border: 1px solid;
-            padding: 10px;
-            box-shadow: 5px 10px var(--green);">
-            <img id="portrait" src="https://anthonygilbertblog.files.wordpress.com/2017/04/17230_10207868639651266_8329703157578398748_n.jpg?w=314&amp;h=314&amp;crop=1" class="align-self-center mr-3" alt="...">
-            <div class="media-body align-self-center">
-                <h1 class="display-4 align-self-center" style="color: #57bd6d;">Hi! I'm Anthony 👋</h1>
-                <p class="align-self-center"><em>Software Developer, linux advocate, and amature astronomer.</em></p>
-                <!-- <p class="mb-0 ">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p> -->
-                <p class="social justify-content-right" style="text-align: center; ">
-                    <a href="https://twitter.com/agilby007" target="_blank " rel="noopener me " style="fill: #57bd6d; margin-right:6px;display:inline-block ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40 " height="40 " viewBox="0 0 612 612 " role="img " aria-labelledby="aps4avep2onr8tk9kniefjv97fbwr8el " class="icon-img ">
+        <div id="box-shadow" class="text-white rounded" 
+            style="border: 1px solid; padding: 10px; width: 87%; background-color: #343a40;">
+            <img id="portrait"
+            src="https://anthonygilbertblog.files.wordpress.com/2017/04/17230_10207868639651266_8329703157578398748_n.jpg?w=314&amp;h=314&amp;crop=1"
+            class="inline-block " alt="Self portrait."
+            style="border:1px solid; padding:10px;">
+            <div class="inline-block"
+                style="border:1px solid;">
+                <h1 class="text-4xl font-serif font-bold" style="color: #57bd6d;">Hi! I'm Anthony 👋</h1>
+                <p class=""><em>Software Developer, linux advocate, and amature astronomer.</em></p>
+
+                <p class="social justify-content-right" style="text-align: center; border: 1px solid; padding: 10px; ">
+                    <a href="https://twitter.com/anthony_codes" target="_blank" rel="noopener me " style="fill: #57bd6d; margin-right:6px;display:inline-block ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 612 612" role="img" aria-labelledby="aps4avep2onr8tk9kniefjv97fbwr8el" class="icon-img">
                             <title id="aps4avep2onr8tk9kniefjv97fbwr8el
                         ">Twitter logo</title>
                             <path d="M612 116.258c-22.525 9.98-46.694 16.75-72.088 19.772 25.93-15.527 45.777-40.155 55.184-69.41-24.322 14.378-51.17 24.82-79.775 30.48-22.906-24.438-55.49-39.66-91.63-39.66-69.333 0-125.55 56.218-125.55 125.514 0 9.828 1.11 19.427 3.25
@@ -21,8 +24,8 @@
                         </svg>
 
                     </a>
-                    <a href="https://github.com/anthonygilbertt" target="_blank " rel="noopener me " style="fill: #57bd6d; margin-right:6px;display:inline-block ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40 " height="40 " viewBox="0 0 438.549 438.549 " role="img " aria-labelledby="aanx93gq2m531dfahvgu0ggxycmhnl2i " class="icon-img ">
+                    <a href="https://github.com/anthonygilbertt" target="_blank" rel="noopener me" style="fill: #57bd6d; margin-right:6px;display:inline-block ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 438.549 438.549 " role="img " aria-labelledby="aanx93gq2m531dfahvgu0ggxycmhnl2i " class="icon-img ">
                             <title id="aanx93gq2m531dfahvgu0ggxycmhnl2i
                         ">GitHub logo</title>
                             <path d="M409.132 114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736 15.166 259.057 5.365 219.27 5.365c-39.78 0-76.47 9.804-110.062 29.408-33.596 19.605-60.192 46.204-79.8 79.8C9.803 148.168 0 184.853 0 224.63c0 47.78 13.94 90.745 41.827
@@ -37,13 +40,10 @@
                         </svg>
 
                     </a>
-                    <a href="https://www.linkedin.com/in/anthony-gilbert-a8155095/ " target="_blank " rel="noopener me " style="fill: #57bd6d; margin-right:6px;display:inline-block ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40 " height="40 " xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1 " style="enable-background:new 0 0 76 76; " version="1.1 " viewBox="0 0 76 76 " xml:space="preserve
-                        " role="img " aria-labelledby="a3v8ugn752s6wmx1f834igw4ypgozd0o " class="icon-img ">
+                    <a href="https://www.linkedin.com/in/anthony-gilbert-a8155095/ " target="_blank" rel="noopener me" style="fill: #57bd6d; margin-right:6px;display:inline-block ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1 " style="enable-background:new 0 0 76 76; " version="1.1 " viewBox="0 0 76 76 " xml:space="preserve
+                        " role="img " aria-labelledby="a3v8ugn752s6wmx1f834igw4ypgozd0o" class="icon-img ">
                             <title id="a3v8ugn752s6wmx1f834igw4ypgozd0o ">LinkedIn logo</title>
-                            <style type="text/css ">
-
-                            </style>
                             <g>
                                 <path class="st0 " d="M68.3,1H7.7C4,1,1,4,1,7.7v60.6C1,72,4,75,7.7,75h60.6c3.7,0,6.7-3,6.7-6.7V7.7C75,4,72,1,68.3,1z M23.9,64.9 c0,1.1-0.9,1.9-1.9,1.9h-8.3c-1.1,0-1.9-0.9-1.9-1.9V30.1c0-1.1,0.9-1.9,1.9-1.9H22c1.1,0,1.9,0.9,1.9,1.9V64.9z
                         M17.8,24.9 c-4.4,0-7.9-3.5-7.9-7.9s3.5-7.9,7.9-7.9s7.9,3.5,7.9,7.9S22.2,24.9,17.8,24.9z M67.2,65.1c0,1-0.8,1.8-1.8,1.8h-8.9 c-1,0-1.8-0.8-1.8-1.8V48.7c0-2.4,0.7-10.7-6.4-10.7c-5.5,0-6.6,5.6-6.8,8.2v18.8c0,1-0.8,1.8-1.8,1.8h-8.6c-1,0-1.8-0.8-1.8-1.8
@@ -71,5 +71,21 @@ export default {
     #aboutme{
         background-color: rgb(162, 160, 160);
         color: rgb(0, 0, 0);
+    }
+
+    img {
+       width: 20px;
+    }
+    .rounded{
+       padding-top: 48px!important;
+       padding-bottom: 48px!important;
+
+    }
+    #portrait {
+        width:300px;
+        
+    }
+    #box-shadow {
+        box-shadow: 5px 10px #57bd6d;
     }
 </style>

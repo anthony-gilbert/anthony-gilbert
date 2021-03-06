@@ -1,13 +1,14 @@
 <template>
-<div>
-<Header />
-<Canvas />
-
-</div>
+  <div>
+    <Canvas />
+    <Aboutme />
+    <Canvas />
+  </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
+import Aboutme from '../components/Aboutme.vue'
 import Header from '../components/Header.vue'
 import Canvas from '../components/Canvas.vue'
 
@@ -15,6 +16,7 @@ export default Vue.extend({
   name: "App",
   components: {
     Header,
+    Aboutme,
     Canvas
   },
   
@@ -31,7 +33,6 @@ body {
     position: absolute;
     width: 100%;
     height: 25%;
-    background-color: #551c1c;
     background-image: url("https://cdn.pixabay.com/photo/2019/11/14/13/01/abstract-4626113_960_720.jpg");
     background-size: cover;
     background-position: center;
