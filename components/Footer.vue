@@ -17,16 +17,10 @@ export default {}
 #footer {
   background-color: rgb(162, 160, 160);
   min-width: 100%;
-
-
-
-
 }
 img {
   width: 20px;
 }
-
-
 
 .footer {
     position: absolute;

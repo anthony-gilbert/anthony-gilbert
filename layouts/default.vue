@@ -1,10 +1,9 @@
 <template>
   <div>
+    <Header />
     <Nuxt />
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <Canvas />
-    <Aboutme />
     <Spacer />
     <Contact />
     <Spacer />
@@ -13,17 +12,15 @@
 </template>
 
 <script lang="ts">
-import Canvas from '../components/Canvas.vue'
+import Header from '../components/Header.vue'
 import Contact from '../components/Contact.vue'
 import Footer from '../components/Footer.vue'
-import Aboutme from '../components/Aboutme.vue'
 import Spacer from '../components/Spacer.vue'
 
 export default {
   name: "App",
   components: {
-    Canvas,
-    Aboutme,
+    Header,
     Contact,
     Footer,
     Spacer
@@ -49,9 +46,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-
   height: 100%;
-  
 }
 
 *,
@@ -92,11 +87,6 @@ html {
 
 html, body {
   margin: 0;
-}
-
-
-
-html, body {
   height: 100%;
 }
 
@@ -104,5 +94,27 @@ html, body {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+#footer {
+  background-color: rgb(162, 160, 160);
+  min-width: 100%;
+}
+img {
+  width: 20px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 </style>
