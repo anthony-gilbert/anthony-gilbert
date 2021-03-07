@@ -1,8 +1,6 @@
 <template>
   <div>
-    <Canvas />
     <Aboutme />
-    <Canvas />
   </div>
 </template>
 
@@ -10,18 +8,14 @@
 import Vue from 'vue'
 import Aboutme from '../components/Aboutme.vue'
 import Header from '../components/Header.vue'
-import Canvas from '../components/Canvas.vue'
 
 export default Vue.extend({
-  name: "App",
+  name: 'App',
   components: {
     Header,
     Aboutme,
-    Canvas
   },
-  
 })
-
 </script>
 
 <style>
@@ -30,12 +24,12 @@ h1 {
   text-align: center;
 }
 body {
-    position: absolute;
-    width: 100%;
-    height: 25%;
-    background-image: url("https://cdn.pixabay.com/photo/2019/11/14/13/01/abstract-4626113_960_720.jpg");
-    background-size: cover;
-    background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  background-image: url('https://cdn.pixabay.com/photo/2019/11/14/13/01/abstract-4626113_960_720.jpg');
+  background-size: cover;
+  background-position: center;
 }
 /* Sample `apply` at-rules with Tailwind CSS
 .container {
@@ -52,16 +46,8 @@ body {
 }
 
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 2.25rem;
@@ -80,5 +66,4 @@ body {
 .links {
   padding-top: 15px;
 }
-
 </style>
