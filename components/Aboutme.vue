@@ -7,7 +7,7 @@
         border: 1px solid;
         padding: 10px;
         width: 87%;
-        background-color: #343a40;
+        background-color: #343a40 !important;
       "
     >
       <img
@@ -154,5 +154,8 @@ img {
 }
 #box-shadow {
   box-shadow: 5px 10px #57bd6d;
+  background-color: #343a40 !important;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 </style>
