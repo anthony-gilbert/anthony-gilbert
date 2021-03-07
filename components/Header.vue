@@ -2,39 +2,26 @@
   <div class="container">
     <div>
       <h1 class="title">
-        Anthony Gilbert
+        <a href="/">Anthony Gilbert</a>
       </h1>
-      <hr>
+      <hr />
       <div class="links">
-        <a
-          href="/projects"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
+        <a href="/projects" rel="noopener noreferrer" class="button--green">
           Projects
         </a>
-        <a
-          href="/blog"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
+        <a href="/blog" rel="noopener noreferrer" class="button--green">
           Blog
         </a>
       </div>
     </div>
   </div>
-
 </template>
 
 <script lang="ts">
-
-
 export default {
-  name: "App",
-  components: {
-
-  }
-};
+  name: 'App',
+  components: {},
+}
 </script>
 
 <style>
