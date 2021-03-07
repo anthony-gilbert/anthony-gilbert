@@ -1,5 +1,5 @@
 <template>
-  <div class="container grid pt-32">
+  <div class="container grid pt-20">
     <div
       id="box-shadow"
       class="text-white rounded"
@@ -13,7 +13,7 @@
       <img
         id="portrait"
         src="https://anthonygilbertblog.files.wordpress.com/2017/04/17230_10207868639651266_8329703157578398748_n.jpg?w=314&amp;h=314&amp;crop=1"
-        class="inline-block"
+        class="inline-block rounded-2xl"
         alt="Self portrait."
         style="border: 1px solid; padding: 10px"
       />
