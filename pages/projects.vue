@@ -38,10 +38,10 @@
           </div>
           <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
             <p>
-              <a target="_blank" href="https://starwars-responsive.netlify.app/" class="text-cyan-600 hover:text-cyan-700">Visit App &rarr; </a>
+              <a target="_blank" href="https://starwars-responsive.netlify.app/" class=" visit text-cyan-600 hover:text-cyan-700">Visit App &rarr; </a>
             </p>
             <p>
-              <a target="_blank" href="https://github.com/anthonygilbertt/starwars-fan-page" class="text-cyan-600 hover:text-cyan-700">View Code &rarr; </a>
+              <a target="_blank" href="https://github.com/anthonygilbertt/starwars-fan-page" class="visit text-cyan-600 hover:text-cyan-700">View Code &rarr; </a>
             </p>
           </div>
         </div>
@@ -89,10 +89,10 @@ Book Tracker App
           </div>
           <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
             <p>
-              <a target="_blank" href="https://anthonys-search-app.netlify.app/" class="text-cyan-600 hover:text-cyan-700">Visit App &rarr; </a>
+              <a target="_blank" href="https://anthonys-search-app.netlify.app/" class="visit text-cyan-600 hover:text-cyan-700">Visit App &rarr; </a>
             </p>
             <p>
-              <a target="_blank" href="https://github.com/anthonygilbertt/github-search" class="text-cyan-600 hover:text-cyan-700">View Code &rarr; </a>
+              <a target="_blank" href="https://github.com/anthonygilbertt/github-search" class="visit text-cyan-600 hover:text-cyan-700">View Code &rarr; </a>
             </p>
           </div>
         </div>
@@ -141,10 +141,10 @@ Github User Search App - Vanilla
           </div>
           <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
             <p>
-              <a target="_blank" href="https://anthonys-book-tracker.netlify.app/" class="text-cyan-600 hover:text-cyan-700">Visit App &rarr; </a>
+              <a target="_blank" href="https://anthonys-book-tracker.netlify.app/" class="visit text-cyan-600 hover:text-cyan-700">Visit App &rarr; </a>
             </p>
             <p>
-              <a target="_blank" href="https://github.com/anthonygilbertt/Vue-Book-Tracker" class="text-cyan-600 hover:text-cyan-700">View Code &rarr; </a>
+              <a target="_blank" href="https://github.com/anthonygilbertt/Vue-Book-Tracker" class="visit text-cyan-600 hover:text-cyan-700">View Code &rarr; </a>
             </p>
           </div>
         </div>
@@ -194,10 +194,10 @@ Github User Search App - Vue.js
           </div>
           <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
             <p>
-              <a target="_blank" href="https://starwars-responsive.netlify.app/" class="text-cyan-600 hover:text-cyan-700">Visit App &rarr; </a>
+              <a target="_blank" href="https://starwars-responsive.netlify.app/" class="visit text-cyan-600 hover:text-cyan-700">Visit App &rarr; </a>
             </p>
             <p>
-              <a target="_blank" href="https://github.com/anthonygilbertt/anthony-gilbert" class="text-cyan-600 hover:text-cyan-700">View Code &rarr; </a>
+              <a target="_blank" href="https://github.com/anthonygilbertt/anthony-gilbert" class="visit text-cyan-600 hover:text-cyan-700">View Code &rarr; </a>
             </p>
           </div>
         </div>
@@ -260,10 +260,10 @@ Personal Website - Nuxt.js
           </div>
           <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
             <p>
-              <a target="_blank" href="https://starwars-responsive.netlify.app/" class="text-cyan-600 hover:text-cyan-700">Visit App &rarr; </a>
+              <a target="_blank" href="https://starwars-responsive.netlify.app/" class="visit text-cyan-600 hover:text-cyan-700">Visit App &rarr; </a>
             </p>
             <p>
-              <a target="_blank" href="https://github.com/anthonygilbertt/anthony-gilbert" class="text-cyan-600 hover:text-cyan-700">View Code &rarr; </a>
+              <a target="_blank" href="https://github.com/anthonygilbertt/anthony-gilbert" class="visit text-cyan-600 hover:text-cyan-700">View Code &rarr; </a>
             </p>
           </div>
         </div>
@@ -347,6 +347,9 @@ html, body {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+.visit{
+  color: #3b6b80;
 }
 
 #footer {
