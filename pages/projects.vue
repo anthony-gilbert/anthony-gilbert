@@ -260,7 +260,7 @@ Personal Website - Nuxt.js
           </div>
           <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
             <p>
-              <a target="_blank" href="https://anthony-gilbert.dev/" class="visit text-cyan-600 hover:text-cyan-700">Visit App &rarr; </a>
+              <a target="_blank" href="https://anthony-gilbert.dev" class="visit text-cyan-600 hover:text-cyan-700">Visit App &rarr; </a>
             </p>
             <p>
               <a target="_blank" href="https://github.com/anthonygilbertt/anthony-gilbert" class="visit text-cyan-600 hover:text-cyan-700">View Code &rarr; </a>
