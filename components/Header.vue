@@ -35,4 +35,25 @@ export default {
     opacity: 0;
   }
 }
+
+.title {
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  display: block;
+  font-weight: 300;
+  font-size: 2.25rem;
+  color: #3b8070;
+  letter-spacing: 1px;
+}
+.links {
+  padding-top: 15px;
+}
+.container {
+  margin: 0 auto;
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 </style>
