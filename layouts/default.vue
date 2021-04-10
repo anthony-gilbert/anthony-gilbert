@@ -48,6 +48,18 @@ html {
   box-sizing: border-box;
   height: 100%;
 }
+h1 {
+  color: azure;
+  text-align: center;
+}
+body {
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  background-image: url('https://cdn.pixabay.com/photo/2019/11/14/13/01/abstract-4626113_960_720.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 *,
 *::before,

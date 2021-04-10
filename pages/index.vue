@@ -45,15 +45,7 @@ body {
   text-align: center;
 }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 2.25rem;
-  color: #3b8070;
-  letter-spacing: 1px;
-}
+
 
 .subtitle {
   font-weight: 300;
