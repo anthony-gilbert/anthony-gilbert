@@ -194,10 +194,10 @@ Github User Search App - Vue.js
           </div>
           <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
             <p>
-              <a target="_blank" href="https://starwars-responsive.netlify.app/" class="visit text-cyan-600 hover:text-cyan-700">Visit App &rarr; </a>
+              <a target="_blank" href="https://vue-github-user-search.netlify.app/#/" class="visit text-cyan-600 hover:text-cyan-700">Visit App &rarr; </a>
             </p>
             <p>
-              <a target="_blank" href="https://github.com/anthonygilbertt/anthony-gilbert" class="visit text-cyan-600 hover:text-cyan-700">View Code &rarr; </a>
+              <a target="_blank" href="https://github.com/anthonygilbertt/vue-github-user-search" class="visit text-cyan-600 hover:text-cyan-700">View Code &rarr; </a>
             </p>
           </div>
         </div>
@@ -231,7 +231,7 @@ Personal Website - Nuxt.js
                   </svg>
                 </span>
                 <p class="ml-2">
-                  <code class="text-sm text-gray-900">Nuxt.js/Vue.js</code>
+                  <code class="text-sm text-gray-900">Nuxt.js / Vue.js</code>
                 </p>
               </li>
               <li class="flex items-start">
@@ -260,7 +260,7 @@ Personal Website - Nuxt.js
           </div>
           <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
             <p>
-              <a target="_blank" href="https://starwars-responsive.netlify.app/" class="visit text-cyan-600 hover:text-cyan-700">Visit App &rarr; </a>
+              <a target="_blank" href="https://anthony-gilbert.dev/" class="visit text-cyan-600 hover:text-cyan-700">Visit App &rarr; </a>
             </p>
             <p>
               <a target="_blank" href="https://github.com/anthonygilbertt/anthony-gilbert" class="visit text-cyan-600 hover:text-cyan-700">View Code &rarr; </a>
