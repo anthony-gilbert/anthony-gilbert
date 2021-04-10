@@ -22,7 +22,7 @@
           Hi! I'm Anthony 👋
         </h1>
         <p class="">
-          <em>Software Developer, linux advocate, and amature astronomer.</em>
+          <em>Software Developer, linux advocate, and amateur astronomer.</em>
         </p>
 
         <p
