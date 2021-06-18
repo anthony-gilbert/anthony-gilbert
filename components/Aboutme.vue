@@ -92,7 +92,7 @@
             </svg>
           </a>
           <a
-            href="https://www.linkedin.com/in/%F0%9F%8C%8C-anthony-gilbert-a8155095/ "
+            href="https://www.linkedin.com/in/%F0%9F%8C%8C-anthony-gilbert-a8155095/"
             target="_blank"
             rel="noopener me"
             style="fill: #57bd6d; margin-right: 6px; display: inline-block"

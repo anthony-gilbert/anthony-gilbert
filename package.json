@@ -2,7 +2,7 @@
   "name": "anthony-gilbert",
   "version": "1.0.0",
   "private": true,
-   "license": "MIT",
+  "license": "MIT",
   "scripts": {
     "dev": "nuxt-ts",
     "build": "nuxt-ts build",
@@ -14,7 +14,9 @@
     "@nuxt/typescript-runtime": "^2.1.0",
     "@nuxtjs/axios": "^5.12.5",
     "core-js": "^3.14.0",
-    "nuxt": "^2.15.4"
+    "node-sass": "^6.0.0",
+    "nuxt": "^2.15.4",
+    "webpack": "^4.46.0"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.4",
@@ -29,5 +31,20 @@
     "prettier": "^2.3.1",
     "ts-jest": "^26.5.4",
     "vue-jest": "^3.0.4"
-  }
+  },
+  "description": "## Build Setup",
+  "main": "jest.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonygilbertt/anthony-gilbert.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/anthonygilbertt/anthony-gilbert/issues"
+  },
+  "homepage": "https://github.com/anthonygilbertt/anthony-gilbert#readme"
 }
