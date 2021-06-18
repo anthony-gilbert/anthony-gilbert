@@ -35,7 +35,9 @@ export default {
     opacity: 0;
   }
 }
-
+a {
+  color: #57bd6d;
+}
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -47,6 +49,7 @@ export default {
 }
 .links {
   padding-top: 15px;
+  color: #57bd6d;
 }
 .container {
   margin: 0 auto;
