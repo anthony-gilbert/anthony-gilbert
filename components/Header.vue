@@ -9,9 +9,9 @@
         <a href="/projects" rel="noopener noreferrer" class="button--green">
           Projects
         </a>
-        <a href="/blog" rel="noopener noreferrer" class="button--green">
+        <!-- <a href="/blog" rel="noopener noreferrer" class="button--green">
           Blog
-        </a>
+        </a> -->
       </div>
     </div>
   </div>
