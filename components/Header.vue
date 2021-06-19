@@ -60,11 +60,11 @@ a {
   text-align: center;
 }
 .button--green {
-    display: inline-block;
-    border-radius: 4px;
-    border: 1px solid #57bd6d;
-    color: #57bd6d;
-    text-decoration: none;
-    padding: 10px 30px;
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #57bd6d;
+  color: #57bd6d;
+  text-decoration: none;
+  padding: 10px 30px;
 }
 </style>
