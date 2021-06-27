@@ -9,6 +9,7 @@ import Vue from 'vue'
 import Aboutme from '../components/Aboutme.vue'
 import Header from '../components/Header.vue'
 
+
 export default Vue.extend({
   name: 'App',
   components: {
