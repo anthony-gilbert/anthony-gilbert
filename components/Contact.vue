@@ -22,6 +22,7 @@ export default {
       emailjs.sendForm('service_mfwhmiy', 'template_rsoluck', e.target, 'user_xxN34oimmfOr9qeC0d3UU')
         .then((result) => {
             console.log('SUCCESS!', result.status, result.text);
+            alert(`Your email has been sent!`);
         }, (error) => {
             console.log('FAILED...', error);
         });
