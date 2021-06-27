@@ -16,6 +16,8 @@ import Header from '../components/Header.vue'
 import Contact from '../components/Contact.vue'
 import Footer from '../components/Footer.vue'
 import Spacer from '../components/Spacer.vue'
+import{ init } from 'emailjs-com';
+init("user_xxN34oimmfOr9qeC0d3UU");
 
 export default {
   name: "App",
