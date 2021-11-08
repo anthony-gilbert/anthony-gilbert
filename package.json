@@ -23,7 +23,7 @@
     "nodemailer": "^6.6.2",
     "nuxt": "^2.15.7",
     "nuxt-ts": "^2.8.1",
-    "webpack": "^4.46.0"
+    "webpack": "^5.62.1"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.4",
