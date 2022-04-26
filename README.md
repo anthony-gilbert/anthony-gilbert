@@ -1,4 +1,4 @@
-- 👀👋
+👀👋
 <!-- - 👋 Hi, I’m Anthony -->
 <!-- - 👀 I’m interested in ... -->
 <!-- - 🌱 I’m currently learning ...
