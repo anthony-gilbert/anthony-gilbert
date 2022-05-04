@@ -1,4 +1,5 @@
-👀👋
+
+![alt text](https://media.giphy.com/media/RneIcLEosVuta/giphy.gif "image Title")
 <!-- - 👋 Hi, I’m Anthony -->
 <!-- - 👀 I’m interested in ... -->
 <!-- - 🌱 I’m currently learning ...
