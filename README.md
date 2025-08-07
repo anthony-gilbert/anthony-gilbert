@@ -21,7 +21,3 @@ I'm a software developer with a passion for building scalable systems, automatin
 ## 📫 How to Reach Me
 
 please don't
-
----
-
-🧠 *“Build it once. Script it forever.”*
