@@ -1,21 +1,27 @@
-# anthony-gilbert
+# 👋 Hi, I'm Anthony Gilbert
 
-## Build Setup
+I'm a software developer with a passion for building scalable systems, automating infrastructure, and solving complex migration problems.
 
-```bash
-# install dependencies
-$ yarn install
+## 🛠️ Tech Stack
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+- **Languages**: Python, Go, JavaScript, Bash
+- **Frontend**: Vue.js, React
+- **Backend**: Node.js, Flask, FastAPI
+- **Cloud**: AWS (MGN, EC2, S3, IAM, SSM, Lambda, CDK)
+- **DevOps**: Docker, Kubernetes, Terraform, GitHub Actions, Jenkins
+- **Tools**: Ansible, PyInstaller, Powershell, Nginx
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+## 🧪 Interests
 
-# generate static project
-$ yarn generate
-```
+- Distributed systems & over-engineering things for fun
+- Automating cloud infra with CDK and Terraform
+- Building internal platforms and tools to make life easier for dev teams
+- Exploring AI and OSS models locally
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
-# anthony-gilbert
+## 📫 How to Reach Me
+
+please don't
+
+---
+
+🧠 *“Build it once. Script it forever.”*
