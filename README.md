@@ -17,7 +17,3 @@ I'm a software developer with a passion for building scalable systems, automatin
 - Automating cloud infra with CDK and Terraform
 - Building internal platforms and tools to make life easier for dev teams
 - Exploring AI and OSS models locally
-
-## 📫 How to Reach Me
-
-please don't
