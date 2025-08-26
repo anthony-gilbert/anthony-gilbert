@@ -8,8 +8,7 @@ I'm a software developer with a passion for building scalable systems, automatin
 - **Frontend**: Vue.js, React
 - **Backend**: Node.js, Flask, FastAPI
 - **Cloud**: AWS (MGN, EC2, S3, IAM, SSM, Lambda, CDK)
-- **DevOps**: Docker, Kubernetes, Terraform, GitHub Actions, Jenkins
-- **Tools**: Ansible, PyInstaller, Powershell, Nginx
+- **DevOps**: Docker, Kubernetes, Terraform, GitHub Actions, ArgoCD, Ansible
 
 ## 🧪 Interests
 
