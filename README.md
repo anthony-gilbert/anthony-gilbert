@@ -7,7 +7,7 @@ I'm a software developer with a passion for building scalable systems, automatin
 - **Languages**: Python, Go, JavaScript, Bash
 - **Frontend**: Vue.js
 - **Backend**: Node.js, Flask, FastAPI
-- **Cloud**: AWS (MGN, EC2, S3, IAM, SSM, Lambda, KMS)
+- **Cloud**: AWS (MGN, EC2, S3, IAM, SSM, Lambda, KMS, SQS, SNS, DataSync, CodePipeline, DynamoDB, FSx)
 - **DevOps**: Docker, Kubernetes, Terraform, GitHub Actions, ArgoCD, Ansible
 
 ## 🧪 Interests
