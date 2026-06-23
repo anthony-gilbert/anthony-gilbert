@@ -1,13 +1,13 @@
 # 👋 Hi, I'm Anthony Gilbert
 
-I'm a software developer with a passion for building scalable systems, automating infrastructure, and solving complex migration problems.
+I'm a Software Engineer with a passion for building distributed systems, math, AI and ML.
 
 ## 🛠️ Tech Stack
 
-- **Languages**: Python, Go, JavaScript, Bash
-- **Frontend**: Vue.js
+- **Languages**: Python, Go, JavaScript, Rust, Bash
+- **Frontend**: Vue.js, React.js
 - **Backend**: Node.js, Flask, FastAPI
-- **Cloud**: AWS (MGN, EC2, S3, IAM, SSM, Lambda, KMS, SQS, SNS, DataSync, CodePipeline, DynamoDB, FSx)
+- **Cloud**: AWS (MGN, EC2, S3, IAM, SSM, Lambda, KMS, SQS, SNS, DataSync, CodePipeline, DynamoDB, FSx, ECS)
 - **DevOps**: Docker, Kubernetes, Terraform, GitHub Actions, ArgoCD, Ansible
 
 ## 🧪 Interests
